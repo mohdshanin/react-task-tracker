@@ -87,7 +87,7 @@ const App = () => {
   };
 
   return (
-    <Router>
+    <Router basename="/react-task-tracker">
       <div className="container">
         <Header
           onAdd={() => setShowAddTask(!showAddTask)}
